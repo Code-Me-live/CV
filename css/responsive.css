@@ -1,0 +1,44 @@
+
+@media screen and (max-width: 768px){
+
+    .list{
+        padding-left: 5.2%;
+        padding-right: 5.2%;
+    }
+
+    .header{
+        width: 100%;
+        height: 125px;
+        top: 2%;
+        left: 2%;
+     }
+
+    .photo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .PatriceB{
+        width: auto;
+        top: 2%;
+        left: 2%;
+        display: flex;
+        align-items: center;
+    }
+
+    .moi{
+        text-align: left;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .titre, .titre1{
+       /*display: none;*/
+        text-align: left;
+        position: relative;
+        top:10%;
+        left: auto;
+        width: auto;
+        margin: 2.1%;
+     }
+}
