@@ -6,6 +6,19 @@
 	position:absolute;
 	top: 29.9%;
 	left: 41.3%;
+
+}
+
+.photo{
+		-webkit-filter: blur(2px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.photo:hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
 }
 
 body, html{
