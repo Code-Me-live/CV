@@ -15,12 +15,10 @@ function handleTabletChange(e) {
             $(this).children('.deroulant').fadeToggle("slow");
             $(this).width("auto");
         })
-
     /*Sinon il faut cliquer pour la version en dessous de 700px*/
     } else {
         $('.titre, .titre1').click(function () {
             $(this).children('.deroulant').fadeToggle("slow");
-            
         })
     }
 }
