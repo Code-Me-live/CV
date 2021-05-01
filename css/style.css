@@ -6,6 +6,10 @@
 	position:absolute;
 	top: 29.9%;
 	left: 41.3%;
+}
+
+#portfolio{
+	margin-top: 20%;
 
 }
 
@@ -14,8 +18,8 @@
 	filter: blur(5px);
 	-webkit-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
-	-webkit-transition: all 0.9s ease;
-  	transition: all 0.9s ease;
+	-webkit-transition: all 0.7s ease;
+  	transition: all 0.7s ease;
 }
 
 .photo:hover{
