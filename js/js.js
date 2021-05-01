@@ -17,6 +17,7 @@ function handleTabletChange(e) {
         })
     /*Sinon il faut cliquer pour la version en dessous de 700px*/
     } else {
+        $("img").attr("src","img/pat1.png");
         $('.titre, .titre1').click(function () {
             $(this).children('.deroulant').fadeToggle("slow");
         })
@@ -27,3 +28,16 @@ function handleTabletChange(e) {
 mediaQuery.addListener(handleTabletChange);
 
 handleTabletChange(mediaQuery);
+
+if(mediaQuery.matches){
+    $(".masque").mouseenter(function(){
+    $("img").attr("src","img/pat1.png");
+  });
+
+  $(".masque").mouseleave(function(){
+    $("img").attr("src","img/pat.png");
+  });
+
+
+}
+

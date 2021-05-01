@@ -8,21 +8,30 @@
 	left: 41.3%;
 }
 
-#portfolio{
-	margin-top: 20%;
-
+.portfolio{
+	text-decoration: none;
+	color: red;
+	font-family: 'Courier Prime';
+	font-size: 20px;
+	position: absolute;
+	top: 90%;
+	left: 50%;
 }
 
-.photo{
+.portfolio:hover{
+	cursor: pointer;
+}
+
+.masque{
 	-webkit-filter: blur(1px);
 	filter: blur(5px);
 	-webkit-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
-	-webkit-transition: all 0.7s ease;
-  	transition: all 0.7s ease;
+	-webkit-transition: all 0.5s ease;
+  	transition: all 0.5s ease;
 }
 
-.photo:hover{
+.masque:hover{
 	-webkit-filter: blur(0);
 	filter: blur(0);
 	-webkit-transform: rotate(360deg);
