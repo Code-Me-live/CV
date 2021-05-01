@@ -43,4 +43,16 @@
         width: auto;
         margin: 2.1%;
      }
+
+     .portfolio{
+
+        color: red;
+        font-family: 'Courier Prime';
+        font-size: 20px;
+        position: absolute;
+        left: 35%;
+        top: 16%;
+     }
+
+
 }
