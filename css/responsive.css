@@ -16,6 +16,8 @@
     .photo{
         width: 100px;
         height: 100px;
+        -webkit-filter: blur(0);
+        filter: blur(0);
     }
 
     .PatriceB{
