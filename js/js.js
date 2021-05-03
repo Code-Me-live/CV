@@ -7,13 +7,8 @@ function handleTabletChange(e) {
 /********************************************************/
     /*Si la taille de l'écran est superieur à 700px => le hover ouvre en auto les titres (.titre)*/
     if (mediaQuery.matches) {
-        $('.titre').mouseenter(function () {
+        $('.titre, .titre1').click(function () {
             $(this).children('.deroulant').fadeToggle("slow");
-            $(this).width("auto");
-        })
-        $('.titre1').click(function () {
-            $(this).children('.deroulant').fadeToggle("slow");
-            $(this).width("auto");
         })
     /*Sinon il faut cliquer pour la version en dessous de 700px*/
     } else {
@@ -37,7 +32,5 @@ if(mediaQuery.matches){
   $(".masque").mouseleave(function(){
     $("img").attr("src","img/pat.png");
   });
-
-
 }
 
