@@ -65,7 +65,7 @@ li .lieu {
 	font-weight: bold;
 }
 
-.titre, .titre1{
+.titre{
 	width: auto;
 	text-align: center;
 	font: normal bold 20px Courier;
@@ -76,8 +76,12 @@ li .lieu {
 	position:absolute;
 }
 
-.titre, .titre1:hover{
+.titre:hover{
 	cursor: pointer;
+}
+
+.titre::before{
+	content: "//";
 }
 
 .EXP1{
