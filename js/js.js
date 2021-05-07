@@ -20,7 +20,7 @@ function handleTabletChange(e) {
 }
 /********************************************************/
 
-mediaQuery.addListener(handleTabletChange);
+
 
 handleTabletChange(mediaQuery);
 
