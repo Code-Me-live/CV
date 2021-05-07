@@ -7,21 +7,30 @@
 	top: 29.9%;
 	left: 41.3%;
 }
+a{
+	text-decoration: none;
+}
 
 ul {
 	list-style-type: none;
 }
 
-#portfolio, .site{
-	text-decoration: none;
-	color: red;
+#portfolio{
 	font-family: 'Courier Prime';
 	font-size: 20px;
 }
 
+#portfolio, .n1{
+	color: red;
+
+}
+
+.n2, .n3, n3, .n4 {
+	color: rgb(122, 121, 121);
+}
 
 .masque{
-	filter: blur(6px);
+	filter: blur(4px);
 	-webkit-transition: .4s ease-in-out;
 	transition: .4s ease-in-out;
 	-webkit-transition: all 0.4s ease;
@@ -58,6 +67,8 @@ li .lieu {
 	color: #3399cc;
 	font-weight: bold;
 }
+
+
 
 .titre{
 	width: auto;
