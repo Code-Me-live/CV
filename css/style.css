@@ -1,69 +1,73 @@
-body{
-    background-color: #F2F2F2;
-}
-ul{
-    list-style: none;
-    margin: 0;
-    padding-left: 10px;
-    padding-bottom: 5px;
-}
-.clr{
-display:block;
-    clear:both;
-    height:1px;
-    width:100%
+@media (max-width: 500px) {
 
-}
-.PatriceB{
-    padding-bottom: 80px;
-}
+    body{
+        background-color: #F2F2F2;
+        margin: 0;
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+    .clr{
+        display:block;
+        clear:both;
+        height:1px;
+        width:100%
+    }
+    .PatriceB{
+        margin-bottom: 80px;
+    }
 
-.photoProfil{
-    float: left;
-    width: 110px;
-}
+    .photoProfil{
+        width: 100px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
 
-.d2wm{
-    font-size: 20px;
-    font-weight: bold;
-    clear: none;
-    position: relative;
-    text-align: left;
-    top: 45px;
-    margin-left: 120px;
+    .d2wm{
+        position: relative;
+        top: 50px;
+        left: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        clear: none;
+    }
 
-}
+    .titre::before{
+        font-weight: bold;
+        content: "// ";
+    }
+    .titre{
+        font-size: 16px;
+        padding: 5px 10px;
+        margin: 0px 10px;
+        text-align: left;
+        font-weight: bold;
+        border-radius: 20px;
+        color: white;
+        background-color: #1F1F1F;
+    }
 
-.titre::before{
-    font-weight: bold;
-    content: "// ";
-}
-.titre{
-    font-size: 16px;
-    padding: 5px 10px;
-    margin: 0px 10px;
-    text-align: left;
-    font-weight: bold;
-    border-radius: 20px;
-    color: white;
-    background-color: #1F1F1F;
-}
-.list{
-    display: none;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    border-radius: 0px 0px 20px 20px;
-    font-size: 14px;
-    background-color: white;
-}
-.module:hover{
-    cursor: pointer;
-}
-.module{
-    width: 100%;
-    margin-bottom: 20px;
-}
-#listEXP1{
-    line-height: 25px;
+    .list{
+        display: none;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        border-radius: 0px 0px 20px 20px;
+        font-size: 14px;
+        background-color: white;
+    }
+    .module:hover{
+        cursor: pointer;
+    }
+    .module{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #listEXP1{
+        line-height: 25px;
+    }
 }
