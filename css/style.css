@@ -8,23 +8,15 @@ ul{
     padding-bottom: 5px;
 }
 .PatriceB{
-    display: flex;
-    position: relative;
-    margin-bottom: 10px;
+
 }
 
 .photoProfil{
-    width: 80px;
-    height: 80px;
-    margin: 10px 20px 20px 10px;
+
 }
 
 .d2wm{
-    width: 80%;
-    text-align: center;
-    margin-right: 15px;
-    font-size: 20px;
-    margin-top: 35px;
+
 }
 
 .titre::before{
@@ -54,17 +46,9 @@ ul{
     cursor: pointer;
 }
 .module{
+    width: 100%;
     margin-bottom: 20px;
 }
 #listEXP1{
     line-height: 25px;
 }
-
-
-
-
-
-
-
-
-
