@@ -7,15 +7,30 @@ ul{
     padding-left: 10px;
     padding-bottom: 5px;
 }
-.PatriceB{
+.clr{
+display:block;
+    clear:both;
+    height:1px;
+    width:100%
 
+}
+.PatriceB{
+    padding-bottom: 80px;
 }
 
 .photoProfil{
-
+    float: left;
+    width: 110px;
 }
 
 .d2wm{
+    font-size: 20px;
+    font-weight: bold;
+    clear: none;
+    position: relative;
+    text-align: left;
+    top: 45px;
+    margin-left: 120px;
 
 }
 
