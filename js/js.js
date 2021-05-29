@@ -8,6 +8,7 @@ function menuDeroulant(id) {
     let niv4 = document.getElementById(niv3);
     let niv5 = niv4.id; // id de l'enfant ul
     let aff = document.getElementById(niv5); //récup du dernier élément par l'id
+    console.log(aff.style.display);
     if (aff.style.display === 'none'){
         aff.style.display ='block';
         titre.style.borderBottomLeftRadius = '0px';

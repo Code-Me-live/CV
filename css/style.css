@@ -39,11 +39,12 @@
     .titre::before{
         font-weight: bold;
         content: "// ";
+        padding-left: 2px;
     }
     .titre{
-        font-size: 16px;
-        padding: 5px 10px;
-        margin: 0px 10px;
+        font-size: 20px;
+        padding: 10px 10px;
+        margin: 0px 25px;
         text-align: left;
         font-weight: bold;
         border-radius: 20px;
@@ -53,8 +54,8 @@
 
     .list{
         display: none;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 25px;
+        margin-left: 25px;
         margin-bottom: 20px;
         border-radius: 0px 0px 20px 20px;
         font-size: 14px;
