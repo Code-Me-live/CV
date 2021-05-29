@@ -1,120 +1,70 @@
+body{
+    background-color: #F2F2F2;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
 .PatriceB{
-	width: 306px;
-	font-family: 'Courier Prime';
-	font-size: 30px;
-	text-align: center;
-	position:absolute;
-	top: 29.9%;
-	left: 41.3%;
-}
-a{
-	text-decoration: none;
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
 }
 
-ul {
-	list-style-type: none;
+.photoProfil{
+    width: 80px;
+    height: 80px;
+    margin: 10px 20px 20px 10px;
 }
 
-#portfolio{
-	font-family: 'Courier Prime';
-	font-size: 20px;
-}
-
-#portfolio, .n1{
-	color: red;
-
-}
-
-.n2, .n3, n3, .n4 {
-	color: rgb(122, 121, 121);
-}
-
-.masque{
-	filter: blur(4px);
-	-webkit-transition: .4s ease-in-out;
-	transition: .4s ease-in-out;
-	-webkit-transition: all 0.4s ease;
-  	transition: all 0.4s ease;
-}
-
-.masque:hover{
-	-webkit-filter: blur(0);
-	filter: blur(0);
-	-webkit-transform: rotate(360deg);
-	transform: rotate(360deg);
-}
-
-body, html{
-	margin: 0;
-	padding: 0;
-	background: #F2F2F2 0% 0% no-repeat padding-box;
-}
-
-.deroulant{
-	display: none;
-	text-align: left;
-	font: normal normal normal 14px/17px Courier;
-	letter-spacing: 0px;
-	color: #1F1F1F;
-	opacity: 1;
-	background-color: #FFFFFF;
-	border-radius: 0px 0px 20px 20px;
-	padding: 5px 5px 7px 5px;
-	margin: 0px -15px -12px -15px;
-}
-
-li .lieu {
-	color: #3399cc;
-	font-weight: bold;
-}
-
-
-
-.titre{
-	width: auto;
-	text-align: center;
-	font: normal bold 20px Courier;
-	color: #FFFFFF;
-	background: #1F1F1F 0% 0% no-repeat padding-box;
-	padding: 10px 15px;
-	border-radius: 20px;
-	position:absolute;
-}
-
-.titre:hover{
-	cursor: pointer;
+.d2wm{
+    width: 80%;
+    text-align: center;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 35px;
 }
 
 .titre::before{
-	content: "//";
+    font-weight: bold;
+    content: "// ";
+}
+.titre{
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+    background-color: #1F1F1F;
+}
+.list{
+    display: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 14px;
+    background-color: white;
+}
+.module:hover{
+    cursor: pointer;
+}
+.module{
+    margin-bottom: 20px;
+}
+#listEXP1{
+    line-height: 25px;
 }
 
-.EXP1{
-	top: 11.4%;
-	left: 64.6%;
-}
 
-.FORM{
-	top: 41.9%;
-	left: 75.7%;
-}
 
-.LOIS{
-	top: 74.3%;
-	left: 69.7%;
-}
 
-.EXP2{
-	top: 73%;
-	left: 4.8%;
-}
 
-.SOFT{
-	top: 43.3%;
-	left: 9.4%;
-}
 
-.INFOS{
-	top: 16.24%;
-	left: 18%;
-}
+
+
+

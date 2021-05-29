@@ -1,36 +1,22 @@
 
-var mediaQuery = window.matchMedia('(min-width: 768px)');
-
-function handleTabletChange(e) {
-
-
-/********************************************************/
-    /*Si la taille de l'écran est superieur à 700px => le hover ouvre en auto les titres (.titre)*/
-    if (mediaQuery.matches) {
-        $('.titre, .titre1').click(function () {
-            $(this).children('.deroulant').fadeToggle("slow");
-        })
-    /*Sinon il faut cliquer pour la version en dessous de 700px*/
+function menuDeroulant(id) {
+    let niv1 = document.getElementById(id);
+    let niv2 = niv1.children; //enfantS
+    let titreId = niv2.item(0).id; //id de l'enfant n°1
+    let titre = document.getElementById(titreId);
+    let niv3 = niv2.item(1).id; //id de l'enfant n°2
+    let niv4 = document.getElementById(niv3);
+    let niv5 = niv4.id; // id de l'enfant ul
+    let aff = document.getElementById(niv5); //récup du dernier élément par l'id
+    if (aff.style.display === 'none'){
+        aff.style.display ='block';
+        titre.style.borderBottomLeftRadius = '0px';
+        titre.style.borderBottomRightRadius = '0px';
     } else {
-        $("img").attr("src","img/pat1.png");
-        $('.titre, .titre1').click(function () {
-            $(this).children('.deroulant').fadeToggle("slow");
-        })
+        aff.style.display ='none';
+        titre.style.borderBottomLeftRadius = '20px';
+        titre.style.borderBottomRightRadius = '20px';
     }
 }
-/********************************************************/
 
-
-
-handleTabletChange(mediaQuery);
-
-if(mediaQuery.matches){
-    $(".masque").mouseenter(function(){
-    $("img").attr("src","img/pat1.png");
-  });
-
-  $(".masque").mouseleave(function(){
-    $("img").attr("src","img/pat.png");
-  });
-}
 
