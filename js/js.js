@@ -1,6 +1,6 @@
 
 function menuDeroulant(id) {
-    
+
     let niv1 = document.getElementById(id);
     let niv2 = niv1.children; //enfantS
     let titreId = niv2.item(0).id; //id de l'enfant n°1
@@ -17,8 +17,8 @@ function menuDeroulant(id) {
         titre.style.borderBottomRightRadius = '0px';
     } else {
         aff.style.display ='none';
-        titre.style.borderBottomLeftRadius = '20px';
-        titre.style.borderBottomRightRadius = '20px';
+        titre.style.borderBottomLeftRadius = '25px';
+        titre.style.borderBottomRightRadius = '25px';
     }
 }
 
