@@ -1,5 +1,6 @@
 body{
-    background-color: #F2F2F2;
+    /*background-color: #F2F2F2;*/
+    background-color: #4c4747;
     margin: 0;
 }
 ul{
@@ -48,7 +49,7 @@ ul{
 }
 .list{
     display: none;
-    margin-right: 25px;
+    margin-right: 26px;
     margin-left: 25px;
     margin-bottom: 20px;
     border-radius: 0px 0px 20px 20px;
@@ -72,45 +73,56 @@ ul{
         top: 35%;
         left: 43%;
     }
-
     .PatriceB{
         width: 180px;
         height: 182px;
-        padding-left: 25px;
+        padding-left: 32px;
     }
     .photoProfil{
         margin: 0;
-        width: 180px;
+        width: 170px;
     }
     .d2wm{
         top: 0;
         font-size: 22px;
         text-align: center;
     }
-
     .module{
+        width: auto;
         position: absolute;
     }
     .titre{
         width: 160px;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
         text-align: center;
         position: absolute;
     }
     #infos{
-        width: 170px;
+        width: 180px;
         top: 13%;
         left: 20%;
     }
 
+    .list{
+        margin-top: 42px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #listSoftSkills{
+        width: 179px !important;
+    }
+    #listEXP2{
+        width: 179px;
+    }
     #EXP1{
         top: 12%;
         left: 65%;
     }
     #formations{
         top: 42%;
-        left: 75%;
+        left: 72%;
     }
     #loisirs{
         top: 75%;
@@ -124,6 +136,4 @@ ul{
         top: 44%;
         left: 9.5%;
     }
-
-
 }
