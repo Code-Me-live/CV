@@ -116,6 +116,15 @@ ul{
     #listEXP2{
         width: 179px;
     }
+    #listEXP1{
+        width: 180px;
+     }
+    #listFormation{
+        width: 178px;
+    }
+    #listLoisirs{
+        width: 179px;
+    }
     #EXP1{
         top: 12%;
         left: 65%;

@@ -21,12 +21,12 @@ if(window.matchMedia("(max-width: 770px)").matches){
     }
     }
 }
+
 if(window.matchMedia("(min-width: 770px)").matches){
     let listInfos = document.getElementById('listInfos');
     let listSoftSkills = document.getElementById('listSoftSkills');
     let listEXP1 = document.getElementById('listEXP1');
     let listEXP2 = document.getElementById('listEXP2');
-
     let listFormation = document.getElementById('listFormation');
     let listLoisirs = document.getElementById('listLoisirs');
 
@@ -45,19 +45,6 @@ if(window.matchMedia("(min-width: 770px)").matches){
             aff.style.display ='block';
             titre.style.borderBottomLeftRadius = '0px';
             titre.style.borderBottomRightRadius = '0px';
-            /*
-            listInfos.style.width = '150px';
-            listInfos.style.marginTop = '43px';
-
-            listSoftSkills.style.width = '150px';
-            listSoftSkills.style.marginTop = '43px';
-            
-            listEXP1.style.width = '150px';
-            listEXP1.style.marginTop = '43px';
-
-            listEXP2.style.width = '150px';
-            listEXP2.style.marginTop = '43px';
-            */
 
         } else {
             aff.style.display ='none';
@@ -67,6 +54,3 @@ if(window.matchMedia("(min-width: 770px)").matches){
     }
    
 }
-
-
-
