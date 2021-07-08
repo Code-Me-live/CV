@@ -45,14 +45,17 @@ if(window.matchMedia("(min-width: 770px)").matches){
             aff.style.display ='block';
             titre.style.borderBottomLeftRadius = '0px';
             titre.style.borderBottomRightRadius = '0px';
-            if(niv1.id){
+            if(niv1.id == 'EXP1'){
                 niv1.style.zIndex ='2';
+                titre.style.width = '280px';
+                niv4.style.width = '300px';
             }
 
         } else {
             aff.style.display ='none';
             titre.style.borderBottomLeftRadius = '25px';
             titre.style.borderBottomRightRadius = '25px';
+            titre.style.width = '160px';
         }
     }
    
