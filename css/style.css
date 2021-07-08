@@ -1,7 +1,9 @@
 body{
-    /*background-color: #F2F2F2;*/
     background-color: #F2F2F2;
     margin: 0;
+}
+.module:hover{
+    cursor: pointer;
 }
 ul{
     list-style: none;
@@ -46,6 +48,7 @@ ul{
     background-color: #1F1F1F;
     position: relative;
 }
+
 .list{
     display: none;
     margin-right: 26px;
@@ -55,9 +58,7 @@ ul{
     font-size: 14px;
     background-color: white;
 }
-.module:hover{
-    cursor: pointer;
-}
+
 .module{
     width: 100%;
     margin-bottom: 20px;
@@ -65,8 +66,13 @@ ul{
 #listEXP1{
     line-height: 25px;
 }
-
+#realisations{
+    background-color:#114d97 !important;
+}
 @media (min-width: 770px) {
+    body{
+        max-width: 900px;
+    }
     .center{
         position: absolute;
         top: 35%;
@@ -75,7 +81,7 @@ ul{
     .PatriceB{
         width: 180px;
         height: 182px;
-        padding-left: 32px;
+        padding-left: 36px;
     }
     .photoProfil{
         margin: 0;
@@ -126,6 +132,7 @@ ul{
     #EXP1{
         top: 12%;
         left: 64%;
+        margin-left: 15px;
     }
     #formations{
         top: 42%;
@@ -142,5 +149,10 @@ ul{
     #softSkills{
         top: 44%;
         left: 9.5%;
+    }
+    #realisations{
+        top: 80%;
+        left: 43%;
+        text-decoration: none;
     }
 }

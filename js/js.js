@@ -21,7 +21,6 @@ if(window.matchMedia("(max-width: 770px)").matches){
         }
     }
 }
-
 if(window.matchMedia("(min-width: 770px)").matches){
     let listInfos = document.getElementById('listInfos');
     let listSoftSkills = document.getElementById('listSoftSkills');
@@ -45,7 +44,6 @@ if(window.matchMedia("(min-width: 770px)").matches){
             aff.style.display ='block';
             titre.style.borderBottomLeftRadius = '0px';
             titre.style.borderBottomRightRadius = '0px';
-            console.log(niv1.id);
             if(niv1.id == 'EXP1'){
                 niv1.style.zIndex ='3';
                 titre.style.width = '329px';
@@ -63,5 +61,8 @@ if(window.matchMedia("(min-width: 770px)").matches){
             titre.style.width = '160px';
         }
     }
-   
+}
+
+function real(){
+    window.document.location.href ='realisations.html';
 }
