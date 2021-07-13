@@ -65,12 +65,16 @@ ul{
     line-height: 25px;
 }
 #realisations{
+    display: none;
     background-color:#114d97 !important;
     font-size: 20px;
 }
 @media (min-width: 770px) {
-    body{
-        max-width: 900px;
+    .clr{
+        display:block;
+        clear:both;
+        height:1px;
+        width:100%
     }
     .center{
         position: absolute;
@@ -81,6 +85,10 @@ ul{
         width: 180px;
         height: 182px;
         padding-left: 36px;
+    }
+    #photo:hover{
+        transform: rotate(360deg);
+        transition: transform 0.3s;
     }
     .photoProfil{
         margin: 0;
