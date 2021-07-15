@@ -62,5 +62,5 @@ if(window.matchMedia("(min-width: 770px)").matches){
     }
 }
 function techno(){
-    alert("Reactjs, Material UI, Symfony, PHP(Yii), JAVA")
+    alert("Reactjs, Material UI, Wordpress, Symfony, PHP(Yii), JAVA")
 }
