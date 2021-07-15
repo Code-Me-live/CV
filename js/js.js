@@ -53,12 +53,11 @@ if(window.matchMedia("(min-width: 770px)").matches){
                 titre.style.width = '280px';
                 niv4.style.width = '300px';
             }
-
         } else {
             aff.style.display ='none';
             titre.style.borderBottomLeftRadius = '25px';
             titre.style.borderBottomRightRadius = '25px';
-            titre.style.width = '160px';
+            titre.style.width = '200px';
         }
     }
 }
