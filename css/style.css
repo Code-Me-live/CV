@@ -182,4 +182,7 @@ a{
         top: 80%;
         left: 41%;
     }
+    #Portfolio:hover{
+        cursor: pointer;
+    }
 }

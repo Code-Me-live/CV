@@ -61,6 +61,6 @@ if(window.matchMedia("(min-width: 770px)").matches){
         }
     }
 }
-function real(){
-    window.document.location.href ='realisations.html';
+function techno(){
+    alert("Reactjs, Material UI, Symfony, PHP(Yii), JAVA")
 }
