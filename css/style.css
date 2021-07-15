@@ -64,10 +64,19 @@ ul{
 #listEXP1{
     line-height: 25px;
 }
+#realisations::before{
+    content: "";
+}
 #realisations{
-    display: none;
+    /*display: none;*/
     background-color:#114d97 !important;
     font-size: 20px;
+}
+.wip{
+    color: orange;
+}
+.certificat{
+    display: none;
 }
 @media (min-width: 770px) {
     .clr{
@@ -75,6 +84,15 @@ ul{
         clear:both;
         height:1px;
         width:100%
+    }
+    .certificat{
+        position: absolute;
+        display: block;
+        left: 152px;
+        bottom: 175px;
+    }
+    .ambassadeur{
+        width: 140px;
     }
     .center{
         position: absolute;
@@ -86,10 +104,12 @@ ul{
         height: 182px;
         padding-left: 36px;
     }
+    /*
     #photo:hover{
         transform: rotate(360deg);
         transition: transform 0.3s;
     }
+    */
     .photoProfil{
         margin: 0;
         width: 170px;
