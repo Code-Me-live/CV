@@ -106,14 +106,9 @@ a{
 
     }
     .photoProfil{
-        margin: 0;
         width: 170px;
-        transition: .4s ease-in-out;
-    }
-    .photoProfil:hover{
-        /*cursor: pointer;*/
-        filter: blur(0);
-        transform: rotate(360deg); 
+        margin: 0;
+        transition: .3s ease-in-out;
     }
     .d2wm{
         top: 0;

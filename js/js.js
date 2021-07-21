@@ -62,5 +62,19 @@ if(window.matchMedia("(min-width: 770px)").matches){
     }
 }
 function techno(){
-    alert("Reactjs, Material UI, Wordpress, Symfony, PHP(Yii), JAVA")
+    alert("React, Symfony, Wordpress, JAVA")
 }
+
+let photo = document.getElementById("photo");
+photo.addEventListener("mouseover", function(event){
+    photo.style.transform = "rotate(360deg)";
+    setTimeout(() => {
+        photo.setAttribute('src', 'img/certificat.png');
+    }, 100);
+});
+photo.addEventListener("mouseleave", function(event){
+    photo.style.transform = "rotate(360deg)";
+    setTimeout(() => {
+            photo.setAttribute('src', 'img/pat.png');
+    }, 100);
+});
