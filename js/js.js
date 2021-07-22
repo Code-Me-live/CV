@@ -66,15 +66,18 @@ function techno(){
 }
 
 let photo = document.getElementById("photo");
+
 photo.addEventListener("mouseover", function(event){
     photo.style.transform = "rotate(360deg)";
+    photo.style.transition= "all 0.3s"
     setTimeout(() => {
         photo.setAttribute('src', 'img/certificat.png');
     }, 100);
 });
 photo.addEventListener("mouseleave", function(event){
-    photo.style.transform = "rotate(360deg)";
+    photo.style.transform = "rotate(-360deg)";
+    photo.style.transition= "all 0.3s"
     setTimeout(() => {
             photo.setAttribute('src', 'img/pat.png');
-    }, 100);
+    }, 50);
 });
