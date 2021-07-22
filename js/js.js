@@ -71,6 +71,7 @@ photo.addEventListener("mouseover", function(event){
     photo.style.transform = "rotate(360deg)";
     photo.style.transition= "all 0.3s"
     setTimeout(() => {
+        photo.style.width = "178px";
         photo.setAttribute('src', 'img/certificat.png');
     }, 100);
 });
@@ -78,6 +79,7 @@ photo.addEventListener("mouseleave", function(event){
     photo.style.transform = "rotate(-360deg)";
     photo.style.transition= "all 0.3s"
     setTimeout(() => {
+        photo.style.width = "170px";
             photo.setAttribute('src', 'img/pat.png');
     }, 50);
 });
