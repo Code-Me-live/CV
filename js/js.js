@@ -73,7 +73,7 @@ photo.addEventListener("mouseover", function(event){
     setTimeout(() => {
         photo.style.width = "178px";
         photo.setAttribute('src', 'img/certificat.png');
-    }, 100);
+    }, 50);
 });
 photo.addEventListener("mouseleave", function(event){
     photo.style.transform = "rotate(-360deg)";
