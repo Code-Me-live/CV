@@ -61,6 +61,7 @@ if(window.matchMedia("(min-width: 770px)").matches){
         }
     }
 }
+
 function techno(){
     alert("React, Symfony, Wordpress, JAVA");
 }
