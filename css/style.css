@@ -21,6 +21,7 @@ a{
     text-decoration: none;
 }
 .github{
+    line-height: 20px;
     font-family: 'Courier Prime';
     margin-bottom: 5px;
     text-align: center;
@@ -80,6 +81,7 @@ a{
 #Portfolio{
     background-color:#114d97 !important;
     font-size: 17px;
+    margin-bottom: 20px;
 }
 .wip{
     color: orange;
@@ -111,6 +113,9 @@ a{
         top: 0;
         font-size: 22px;
         text-align: center;
+    }
+    .github{
+        line-height: 25px;
     }
     .module{
         width: auto;
