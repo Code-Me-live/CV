@@ -44,11 +44,11 @@ if(window.matchMedia("(min-width: 770px)").matches){
             aff.style.display ='block';
             titre.style.borderBottomLeftRadius = '0px';
             titre.style.borderBottomRightRadius = '0px';
-            if(niv1.id == 'EXP1'){
+            if(niv1.id === 'EXP1'){
                 niv1.style.zIndex ='3';
                 titre.style.width = '329px';
                 niv4.style.width = '350px';
-            } else if (niv1.id == 'formations'){
+            } else if (niv1.id === 'formations'){
                 niv1.style.zIndex ='2';
                 titre.style.width = '280px';
                 niv4.style.width = '300px';
@@ -63,7 +63,7 @@ if(window.matchMedia("(min-width: 770px)").matches){
 }
 
 function techno(){
-    alert("Wordpress, Symfony, JS");
+    alert("Wordpress, Symfony, React, Material UI");
 }
 
 let photo = document.getElementById("photo");
