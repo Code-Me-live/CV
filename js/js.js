@@ -63,7 +63,7 @@ if(window.matchMedia("(min-width: 770px)").matches){
 }
 
 function techno(){
-    alert("Wordpress, Symfony, React, Material UI");
+    alert("Wordpress, Symfony, React.JS");
 }
 
 let photo = document.getElementById("photo");
