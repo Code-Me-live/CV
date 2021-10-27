@@ -1,56 +1,39 @@
+function menuDeroulant(id){
 
+    let idNiv0 = document.getElementById(id);
+    let idNiv4 = document.getElementById(id).children.item(1);
+    let listName = document.getElementById(id).children.item(1).id;
+    let titre = document.getElementById(document.getElementById(id).children.item(0).id) ;
+    let affichage = document.getElementById(listName);
+    let display = affichage.style.display;
 
-if(window.matchMedia("(max-width: 770px)").matches){
-        function menuDeroulant(id) {
-        let niv1 = document.getElementById(id);
-        let niv2 = niv1.children; //enfants
-        let titreId = niv2.item(0).id; //id de l'enfant n°1
-        let titre = document.getElementById(titreId);
-        let niv3 = niv2.item(1).id; //id de l'enfant n°2
-        let niv4 = document.getElementById(niv3);
-        let niv5 = niv4.id; // id de l'enfant ul
-        let aff = document.getElementById(niv5); //récup du dernier élément par l'id
-        let display = aff.style.display;
-
-        if (aff.style.display === 'none' || display ===""){
-            aff.style.display ='block';
+    if(window.matchMedia("(max-width: 770px)").matches){
+        if (affichage.style.display === 'none' || display ===""){
+            affichage.style.display ='block';
             titre.style.borderBottomLeftRadius = '0px';
             titre.style.borderBottomRightRadius = '0px';
         } else {
-            aff.style.display ='none';
+            affichage.style.display ='none';
             titre.style.borderBottomLeftRadius = '25px';
             titre.style.borderBottomRightRadius = '25px';
         }
     }
-}
-if(window.matchMedia("(min-width: 770px)").matches){
-
-    function menuDeroulant(id) {
-        let niv1 = document.getElementById(id);
-        let niv2 = niv1.children; //enfantS
-        let titreId = niv2.item(0).id; //id de l'enfant n°1
-        let titre = document.getElementById(titreId);
-        let niv3 = niv2.item(1).id; //id de l'enfant n°2
-        let niv4 = document.getElementById(niv3);
-        let niv5 = niv4.id; // id de l'enfant ul
-        let aff = document.getElementById(niv5); //récup du dernier élément par l'id
-        let display = aff.style.display;
-
-        if (aff.style.display === 'none' || display === ""){
-            aff.style.display ='block';
+    if(window.matchMedia("(min-width: 770px)").matches){
+        if (affichage.style.display === 'none' || display === ""){
+            affichage.style.display ='block';
             titre.style.borderBottomLeftRadius = '0px';
             titre.style.borderBottomRightRadius = '0px';
-            if(niv1.id === 'EXP1'){
-                niv1.style.zIndex ='3';
+            if(idNiv0.id === 'EXP1'){
+                idNiv0.style.zIndex ='3';
                 titre.style.width = '329px';
-                niv4.style.width = '350px';
-            } else if (niv1.id === 'formations'){
-                niv1.style.zIndex ='2';
+                idNiv4.style.width = '350px';
+            } else if (idNiv0.id === 'formations'){
+                idNiv0.style.zIndex ='2';
                 titre.style.width = '280px';
-                niv4.style.width = '300px';
+                idNiv4.style.width = '300px';
             }
         } else {
-            aff.style.display ='none';
+            affichage.style.display ='none';
             titre.style.borderBottomLeftRadius = '25px';
             titre.style.borderBottomRightRadius = '25px';
             titre.style.width = '200px';
@@ -77,6 +60,6 @@ photo.addEventListener("mouseleave", function(event){
     photo.style.transition= "all 0.3s"
     setTimeout(() => {
         photo.style.width = "170px";
-            photo.setAttribute('src', 'img/pat.png');
+        photo.setAttribute('src', 'img/pat.png');
     }, 40);
 });
