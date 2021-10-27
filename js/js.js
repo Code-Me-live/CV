@@ -1,7 +1,9 @@
+
+
 if(window.matchMedia("(max-width: 770px)").matches){
         function menuDeroulant(id) {
         let niv1 = document.getElementById(id);
-        let niv2 = niv1.children; //enfantS
+        let niv2 = niv1.children; //enfants
         let titreId = niv2.item(0).id; //id de l'enfant n°1
         let titre = document.getElementById(titreId);
         let niv3 = niv2.item(1).id; //id de l'enfant n°2
@@ -22,12 +24,6 @@ if(window.matchMedia("(max-width: 770px)").matches){
     }
 }
 if(window.matchMedia("(min-width: 770px)").matches){
-    let listInfos = document.getElementById('listInfos');
-    let listSoftSkills = document.getElementById('listSoftSkills');
-    let listEXP1 = document.getElementById('listEXP1');
-    let listEXP2 = document.getElementById('listEXP2');
-    let listFormation = document.getElementById('listFormation');
-    let listLoisirs = document.getElementById('listLoisirs');
 
     function menuDeroulant(id) {
         let niv1 = document.getElementById(id);
