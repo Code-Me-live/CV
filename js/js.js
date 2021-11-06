@@ -51,7 +51,7 @@ photo.addEventListener("mouseover", function(event){
     photo.style.transform = "rotate(360deg)";
     photo.style.transition= "all 0.2s"
     setTimeout(() => {
-        photo.style.width = "178px";
+        photo.style.width = "170px";
         photo.setAttribute('src', 'img/certificat.png');
     }, 60);
 });
