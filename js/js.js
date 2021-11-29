@@ -67,3 +67,4 @@ photo.addEventListener("mouseleave", function (event) {
         photo.setAttribute('src', 'img/pat.png');
     }, 40);
 });
+
